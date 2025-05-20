@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Poppins:wght@400;500;600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.fonte-poppins {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  padding: 10px 30px;
+}
+
+.header-bg {
+  background-color: var(--cor-c3);
+}
+
+.header {
+  justify-content: space-between;
+}
+
+.header-menu {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.header-menu li a:hover {
+  color: #721414;
+}
+
+.formacao {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.projetos {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.projetos ul {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.projetos li a:hover {
+  color: #721414;
+}
+
+.container-introducao p {
+margin-bottom: 60px;
+}
+
+.container-contato {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  padding: 50px;
+}
+
+.formulario-dados {
+  padding: 0px 50px 0px;
+}
+
+.formulario-assunto {
+  padding-top: 20px;
+  display: grid;
+  grid-column: 1 / -1;
+}
+
+.input-formulario {
+  font: 400 1rem "Poppins", sans-serif;
+  background-color: #f0efef;
+  border: 1px solid #cccbcb;
+  padding: 10px;
+  border-radius: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.input-formulario:focus {
+  outline: 2px solid #721414;
+}
+
+.container-contato button {
+  grid-area: 4 / 2;
+  padding: 20px 65px;
+  justify-self: end;
+  cursor: pointer;
+  border: none;
+  font-weight: 600;
+  font-size: 1rem;
+  background-color: #721414;
+  color: white;
+}
+
+.container-contato button:hover {
+background-color: #791717;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contato</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header-bg">
+    <div class="header container">
+      <nav id="nav">
+        <ul class="header-menu">
+          <li><a class="menu" href="./index.html">Sobre Mim</a></li>
+          <li class="menu"><a href="./formacao.html">Formação</a></li>
+          <li class="menu"><a href="./projetos.html">Projetos</a></li>
+          <li class="menu"><a href="./contato.html">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+   <main class="introducao-bg">
+    <div class="formulario-dados">
+        <h2 class="fonte-poppins texto-p">Entre em contato comigo</h2>
+      </div>
+      <div>
+        <form action="./index.html" class="container-contato">
+          <div class="formulario-nome">
+            <label class="fonte-poppinsM texto-pp texto-label" for="nome-label">Nome Completo</label>
+            <input type="text" name="nome" id="nome" required class="input-formulario">
+          </div>
+          <div class="formulario-email">
+            <label class="fonte-poppinsM texto-pp texto-label" for="email-label">E-mail</label>
+            <input type="email" name="email" id="email" required class="input-formulario">S
+          </div>
+          <div class="formulario-telefone">
+            <label class="fonte-poppinsM texto-pp texto-label" for="telefone-label">Celular</label>
+            <input type="tel" name="telefone" id="telefone" required data-js="phone" class="input-formulario">
+          </div>
+          <div class="formulario-assunto">
+            <label class="fonte-poppinsM texto-pp texto-label" for="mensagem-label">Mensagem</label>
+            <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="O que você precisa?" class="input-formulario"></textarea>
+          </div>
+          <button class="botao fonte-poppins">Enviar</button>
+        </form>
+      </div>
+  </main>
+</body>
+</html>
